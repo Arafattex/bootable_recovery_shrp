@@ -24,7 +24,10 @@
 				<touch key="volup"/>
 				<action function="overlay">reboot</action>
 			</action>	
-					
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>				
 			<action>
 				<touch key="voldown"/>
 				<action function="flashlight"/>

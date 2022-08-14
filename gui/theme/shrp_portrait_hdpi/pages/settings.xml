@@ -562,7 +562,10 @@
 				<touch key="home" />
 				<action function="page">c_refresh</action>
 			</action>
-
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
 			<action>
 				<touch key="back" />
 				<action function="page">c_refresh</action>
